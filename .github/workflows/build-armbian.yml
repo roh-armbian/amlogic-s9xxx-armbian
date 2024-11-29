@@ -186,6 +186,7 @@ on:
           - 6.6.y
           - 6.1.y_6.6.y
           - 5.15.y_5.10.y
+          - 6.6.41
       auto_kernel:
         description: "Auto use the latest kernel."
         required: false
@@ -232,7 +233,7 @@ on:
         options:
           - ophub
           - angel
-          - yourname
+          - rohmatsb
 
 env:
   TZ: America/New_York
